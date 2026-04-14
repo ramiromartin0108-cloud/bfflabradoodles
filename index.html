@@ -1,0 +1,328 @@
+<!DOCTYPE html><html class="light" lang="es"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Doodles de Familia | Criando con Amor</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;800&amp;family=Inter:wght@400;500;600&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "tertiary-fixed": "#ffe088",
+                    "outline": "#7a7864",
+                    "tertiary-container": "#ffda6b",
+                    "primary-fixed-dim": "#d2ca4a",
+                    "on-secondary-fixed": "#001f28",
+                    "secondary-container": "#b9eafc",
+                    "inverse-on-surface": "#f2f0f0",
+                    "background": "#fbf9f9",
+                    "on-tertiary-fixed": "#241a00",
+                    "on-tertiary-fixed-variant": "#574500",
+                    "tertiary": "#735c00",
+                    "on-secondary-container": "#3b6b7a",
+                    "surface-tint": "#656100",
+                    "error": "#ba1a1a",
+                    "tertiary-fixed-dim": "#ecc234",
+                    "secondary-fixed": "#b9eafc",
+                    "surface-container-lowest": "#ffffff",
+                    "primary-fixed": "#efe763",
+                    "surface-container-low": "#f5f3f3",
+                    "inverse-primary": "#d2ca4a",
+                    "on-error-container": "#93000a",
+                    "on-primary": "#ffffff",
+                    "surface-container-high": "#e9e8e7",
+                    "outline-variant": "#cbc7b0",
+                    "primary-container": "#eae25f",
+                    "on-surface": "#1b1c1c",
+                    "secondary": "#346574",
+                    "on-background": "#1b1c1c",
+                    "surface-bright": "#fbf9f9",
+                    "on-primary-container": "#686400",
+                    "surface-container": "#efeded",
+                    "on-error": "#ffffff",
+                    "on-secondary-fixed-variant": "#194d5c",
+                    "primary": "#656100",
+                    "on-primary-fixed": "#1e1c00",
+                    "secondary-fixed-dim": "#9ecedf",
+                    "surface-variant": "#e3e2e2",
+                    "on-surface-variant": "#494736",
+                    "inverse-surface": "#303031",
+                    "on-tertiary": "#ffffff",
+                    "error-container": "#ffdad6",
+                    "on-primary-fixed-variant": "#4c4800",
+                    "on-tertiary-container": "#775e00"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Plus Jakarta Sans"],
+                    "body": ["Inter"],
+                    "label": ["Inter"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .sunlight-shadow {
+            box-shadow: 0 12px 60px -12px rgba(27, 28, 28, 0.06);
+        }
+        body { font-family: 'Inter', sans-serif; background-color: #fbf9f9; color: #1b1c1c; }
+        h1, h2, h3 { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
+</head>
+<body class="bg-surface selection:bg-primary-container">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-white/70 backdrop-blur-md">
+<div class="flex justify-between items-center px-8 py-6 max-w-7xl mx-auto">
+<div class="flex items-center gap-3"><img alt="Doodles de Familia Logo" class="w-auto object-contain h-16" src="https://raw.githubusercontent.com/ramiromartin0108-cloud/bfflabradoodles/main/images/logo_bff_australianlabradoodles.png" style=""></div>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-stone-900 border-b-2 border-yellow-400 pb-1 text-sm font-bold uppercase tracking-widest transition-transform active:scale-95" href="#about" style="">Quiénes somos</a>
+<a class="text-stone-500 hover:text-stone-900 text-sm font-bold uppercase tracking-widest transition-colors duration-300" href="#breed" style="">La raza</a>
+<a class="text-stone-500 hover:text-stone-900 text-sm font-bold uppercase tracking-widest transition-colors duration-300" href="#process" style="">Proceso</a>
+<a class="text-stone-500 hover:text-stone-900 text-sm font-bold uppercase tracking-widest transition-colors duration-300" href="#contact" style="">Contacto</a>
+</div>
+</div>
+</nav>
+<main class="pt-24">
+<!-- Hero Section: Intentional Asymmetry -->
+<section class="relative px-8 py-20 max-w-7xl mx-auto overflow-hidden">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<div class="lg:col-span-6 z-10">
+<span class="text-primary font-bold uppercase tracking-[0.2em] text-[12px] mb-4 block" style="">BEST FRIEND FOREVER AUSTRALIAN LABRADOODLES</span>
+<h1 class="text-5xl md:text-7xl font-bold text-on-surface leading-[1.1] mb-8 tracking-tight" style="">
+<span class="text-stone-600" style="color: rgb(105, 105, 105);">Primero somos&nbsp;</span><span class="text-primary" style="color: rgb(234, 226, 95);">familia</span><span class="text-stone-600" style="color: rgb(105, 105, 105);">, despues criadores</span></h1>
+<p class="text-lg text-on-surface-variant leading-relaxed mb-10 max-w-lg" style=""></p><div class="" style="">Nuestros perros son parte de nuestra vida.</div><div class="" style="">No criamos perros: acompañamos el comienzo de historias que duran para siempre.</div><div><br></div><div class="" style="">Nos especializamos en Australian Labradoodles multigeneracionales, priorizando la salud, el temperamento equilibrado y la alegría de integrar un nuevo miembro a tu hogar.</div><div><br></div><div class="" style="">Creemos en disfrutar la vida juntos. En los paseos, en los abrazos, en las risas compartidas.</div><div class="" style="">Porque un mejor amigo es para siempre.<div><br></div></div><p class="" style=""></p>
+<div class="flex flex-wrap gap-4">
+<button class="bg-surface-container-high text-on-surface px-10 py-4 rounded-full font-bold uppercase tracking-widest text-xs hover:bg-surface-variant transition-colors active:scale-95" style="">
+                            Conocer la raza
+                        </button>
+</div>
+</div>
+<div class="lg:col-span-6 relative">
+<div class="relative w-full aspect-[4/5] rounded-[2rem] overflow-hidden sunlight-shadow">
+<img class="w-full h-full object-cover" data-alt="Happy family with two children and a large brown Australian Labradoodle, with the text 'BEST FRIENDS FOREVER' at the bottom." src="https://raw.githubusercontent.com/ramiromartin0108-cloud/bfflabradoodles/main/images/276df4c9-39ed-4ed3-a976-e051a9c754db.JPG" style="">
+</div>
+<div class="absolute -bottom-10 -left-10 w-48 h-48 rounded-[1.5rem] overflow-hidden border-surface sunlight-shadow hidden md:block border-2">
+<img class="w-full h-full object-cover" data-alt="Australian Labradoodle puppy laying down" src="https://raw.githubusercontent.com/ramiromartin0108-cloud/bfflabradoodles/main/images/438c6c9b-b134-4fc3-adbc-5d84e30532b6.jpg" style="">
+</div>
+</div>
+</div>
+</section>
+<!-- Trust Ribbon -->
+<section class="py-8 mt-12 overflow-hidden bg-primary-container">
+<div class="max-w-7xl mx-auto px-8 flex flex-wrap justify-center md:justify-between items-center gap-8 opacity-80">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-on-primary-container" style="">home</span>
+<span class="text-[10px] font-bold uppercase tracking-widest text-on-primary-container" style="">Socialización Temprana</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-on-primary-container" style="">vaccines</span>
+<span class="text-[10px] font-bold uppercase tracking-widest text-on-primary-container" style="">Protocolos Veterinarios</span>
+</div>
+</div>
+</section>
+<!-- Quiénes somos: Story & Philosophy -->
+<section class="py-24 px-8 bg-surface-container-low" id="about">
+<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
+<div class="order-2 md:order-1 relative">
+<div class="grid grid-cols-2 gap-4">
+<div class="pt-12">
+<img class="rounded-xl w-full aspect-square object-cover mb-4" data-alt="A happy family playing with a Labradoodle puppy in a lush green backyard during a sunny afternoon" src="https://raw.githubusercontent.com/ramiromartin0108-cloud/bfflabradoodles/main/images/ChatGPT%20Image%2013%20de%20abr.%20de%202026%2023_06_36.png" style="">
+<img class="rounded-xl w-full aspect-[3/4] object-cover" data-alt="Golden curly-haired puppy resting on a soft blanket in a cozy living room" src="https://raw.githubusercontent.com/ramiromartin0108-cloud/bfflabradoodles/main/images/ChatGPT%20Image%204%20de%20abr.%20de%202026%2023_18_49.png" style="">
+</div>
+<div>
+<img class="rounded-xl w-full aspect-[3/4] object-cover mb-4" data-alt="A group of adorable reddish-brown Australian Labradoodle puppies gathered around a central bowl of food, seen from a top-down perspective on a wooden floor." src="https://raw.githubusercontent.com/ramiromartin0108-cloud/bfflabradoodles/refs/heads/main/images/b73d44ea-1d1c-4df7-b43a-00b69338bf24.JPG" style="">
+<img class="rounded-xl w-full aspect-square object-cover" data-alt="Human hands gently holding a small puppy paws, conveying care and trust" src="https://raw.githubusercontent.com/ramiromartin0108-cloud/bfflabradoodles/refs/heads/main/images/ChatGPT%20Image%204%20de%20abr.%20de%202026%2017_28_00.png" style="">
+</div>
+</div>
+</div>
+<div class="order-1 md:order-2">
+<h2 class="text-4xl font-bold text-on-surface mb-6 leading-tight" style="color: rgb(105, 105, 105);">Nuestra <span class="" style="color: rgb(205, 195, 39); font-style: normal;">Historia</span>, <br>Vuestra Familia</h2>
+<p class="text-on-surface-variant mb-6 leading-relaxed" style=""></p><div class="" style="">BFF nació en nuestra familia, del deseo sincero de compartir la alegría de vivir con un Labradoodle.</div><div><br></div><div class="" style="">Crecimos rodeados de naturaleza y animales. Aprendimos desde chicos que el vínculo con ellos transforma la vida. Esa conexión fue tan fuerte que me llevó a elegir la veterinaria como profesión, y hoy es la misma pasión la que guía cada paso de este proyecto.</div><div><br></div><p class="" style=""></p>
+<p class="text-on-surface-variant mb-8 leading-relaxed" style=""></p><div class="" style="">Creemos en criar desde el amor y el respeto.</div><div class="" style="">En acompañar cada nacimiento con responsabilidad.</div><div class="" style="">En priorizar la salud y el temperamento.</div><div class="" style="">En formar vínculos que duren toda la vida.</div><div><br></div><div class="" style="">Nuestros perros son parte de nuestra historia.</div><div class="" style="">Y cada cachorro que nace aquí lleva consigo ese mismo comienzo: cuidado, presencia y compromiso.<div><br></div></div><p class="" style=""></p>
+<div class="bg-primary-container/30 p-8 rounded-xl border-l-4 border-primary">
+<p class="italic text-on-primary-container font-medium text-lg leading-relaxed" style=""></p><div class="" style="">Best Friend Forever es lo que creemos.</div><div class="" style="">Y es lo que hacemos.</div><p class="" style=""></p>
+</div>
+</div>
+</div>
+</section>
+<!-- La raza: Characteristics Bento Grid -->
+<section class="py-24 px-8 max-w-7xl mx-auto" id="breed">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold mb-4" style="color: rgb(105, 105, 105);"><img alt="Branding Icon" class="h-6 w-6 inline-block mr-3 mb-1 opacity-80" src="https://lh3.googleusercontent.com/aida/ADBb0ujysfJfY1rxKjuh9e7FJU70BEgkEwx0jrcj8w0OnttC1CmhT_2B2ir8TXLtehhjeyki5f5Qxq6NkvtqAzE0OHXCWhSJR2aMDZ4ydUVMJk1DW9uXAlzbnj7y0B2ITb7IxuZ7PCzc0fLoBE7RkYfuDI0QwY5VnEKr66SLNk-XYlRDdDdRJCJN-v7Txdx4lSabsQxYwduujd1daQO_ZnKl9p-JYEDfK6l54jtY2KM-31a8V1AZemQ6TTObE3FUZn2r_SOFC-UB7yLTiA" style="">Origen e Historia del Labradoodle</h2>
+<p class="text-on-surface-variant max-w-2xl mx-auto" style=""></p><p class="" data-end="165" data-start="90" style="text-align: start; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0);"></p><div class="" style="">El Australian Labradoodle no nació como una moda.</div><div class="" style="">Nació de una necesidad.</div><div><br></div><div class="" style="">A fines de los años 80, en Australia, comenzó la búsqueda de un perro de asistencia que pudiera convivir con personas alérgicas. En ese momento, no existía un perro que combinara un temperamento ideal para servicio con un pelaje más compatible.</div><div><br></div><div class="" style="">Así comenzó su historia dentro del programa de perros guía.</div><div class="" style="">El primer ejemplar, llamado Sultán, fue desarrollado para una mujer no vidente en Hawái, marcando el inicio de una nueva línea.</div><div><br></div><div class="" style="">El proyecto comenzó con el cruce entre Poodle y Labrador Retriever, y con el tiempo se incorporaron otras razas cuidadosamente seleccionadas, consolidando lo que hoy conocemos como Australian Labradoodle multigeneracional.</div><div><br></div><div class="" style="">El resultado es un perro equilibrado, inteligente y profundamente conectado con las personas.</div><div class="" style="">Un compañero sensible, sociable y confiable.</div><div class="" style="">Un perro pensado para acompañar de verdad.</div><div><br></div><div class="" style="">Esa esencia — su equilibrio, su sensibilidad y su capacidad de vínculo — es lo que nos llevó a enamorarnos de la raza y elegirla como parte de nuestra vida.</div><p class="" style=""></p><p class="" data-end="382" data-start="167" style="text-align: start; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0);"><br></p><p class="" data-end="577" data-start="384" style="text-align: start; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0);"><br></p><p class="" data-end="781" data-start="579" style="text-align: start; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0);"><br></p><p class="" data-end="846" data-start="783" style="text-align: start; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0);"><br></p><p class="" data-end="937" data-start="848" style="text-align: start; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0);"><br></p><p class="" style=""></p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Bento Item 1 -->
+<div class="md:col-span-2 bg-surface-container-high rounded-[2rem] p-10 flex flex-col md:flex-row gap-8 items-center">
+<div class="flex-1">
+<div class="w-12 h-12 bg-primary-container rounded-full flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-on-primary-container" style="">clean_hands</span>
+</div>
+<h3 class="text-2xl font-bold mb-4" style="">Manto 'Allergy Friendly'</h3>
+<p class="text-on-surface-variant" style="">Diseñado originalmente para familias con asma y alergias. Su pelaje único permite la convivencia sin las reacciones habituales, manteniendo la higiene en el hogar.</p>
+</div>
+<div class="w-full md:w-1/2 aspect-square rounded-2xl overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Close-up high-quality photo of the curly, soft, and wool-like coat of an Australian Labradoodle, highlighting the texture and apricot/caramel color." src="https://raw.githubusercontent.com/ramiromartin0108-cloud/bfflabradoodles/main/images/ChatGPT%20Image%205%20de%20abr.%20de%202026%2013_04_50.png" style="">
+</div>
+</div>
+<!-- Bento Item 2 -->
+<div class="bg-primary-container rounded-[2rem] p-10 flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 bg-white/40 rounded-full flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-on-primary-container" style="">psychology</span>
+</div>
+<h3 class="text-2xl font-bold mb-4" style="">Corazón de Guía</h3>
+<p class="text-on-primary-container/80" style="">Heredan la disciplina de un perro de servicio. Su inteligencia intuitiva les permite conectar emocionalmente, facilitando un entrenamiento excepcional.</p>
+</div>
+<div class="mt-8 text-on-primary-container font-black text-6xl opacity-20" style="">IQ</div>
+</div>
+<!-- Bento Item 3 -->
+<div class="bg-surface-container-low rounded-[2rem] p-10 border border-outline-variant/10">
+<div class="w-12 h-12 bg-secondary-container rounded-full flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-secondary" style="">mood</span>
+</div>
+<h3 class="text-2xl font-bold mb-4" style="">Temperamento Alegre</h3>
+<p class="text-on-surface-variant" style="">Poseen un carácter estable y sumamente social. Son perros equilibrados, sin rastros de agresividad, ideales para la vida en familia y con niños.</p>
+</div>
+<!-- Bento Item 4 -->
+<div class="md:col-span-2 bg-inverse-surface text-inverse-on-surface rounded-[2rem] p-10 flex flex-col md:flex-row gap-8 items-center">
+<div class="w-full md:w-1/2 aspect-video rounded-2xl overflow-hidden order-2 md:order-1">
+<img class="w-full h-full object-cover" data-alt="Historical photo of a man with an Australian Labradoodle, representing the legacy of the breed." src="https://raw.githubusercontent.com/ramiromartin0108-cloud/bfflabradoodles/main/images/ChatGPT%20Image%205%20de%20abr.%20de%202026%2013_09_40.png" style="">
+</div>
+<div class="flex-1 order-1 md:order-2">
+<h3 class="text-2xl font-bold mb-4" style="">El Legado de Sultán</h3>
+<p class="text-inverse-on-surface/70" style="">Nacida en Australia a finales de los 80, esta raza surge de la necesidad de un perro guía hipoalergénico. El cruce perfecto entre Poodle y Labrador creó un compañero con temple de servicio y alma noble.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Proceso: Step-by-step Tonal Cards -->
+<section class="py-24 px-8 bg-surface-container-low" id="process">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+<div>
+<span class="text-primary font-bold uppercase tracking-widest text-xs mb-2 block" style="">Camino a casa</span>
+<h2 class="text-4xl font-bold" style="color: rgb(105, 105, 105);"><img alt="Branding Icon" class="h-6 w-6 inline-block mr-3 mb-1 opacity-80" src="https://lh3.googleusercontent.com/aida/ADBb0ujysfJfY1rxKjuh9e7FJU70BEgkEwx0jrcj8w0OnttC1CmhT_2B2ir8TXLtehhjeyki5f5Qxq6NkvtqAzE0OHXCWhSJR2aMDZ4ydUVMJk1DW9uXAlzbnj7y0B2ITb7IxuZ7PCzc0fLoBE7RkYfuDI0QwY5VnEKr66SLNk-XYlRDdDdRJCJN-v7Txdx4lSabsQxYwduujd1daQO_ZnKl9p-JYEDfK6l54jtY2KM-31a8V1AZemQ6TTObE3FUZn2r_SOFC-UB7yLTiA" style="">Nuestro Proceso de Adopción</h2>
+</div>
+<p class="text-on-surface-variant max-w-md" style="">Nos tomamos muy en serio encontrar el hogar perfecto para cada uno de nuestros pequeños.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-1">
+<!-- Step 1 -->
+<div class="bg-surface-container-lowest p-12 group hover:bg-primary-container transition-colors duration-500">
+<span class="text-5xl font-black text-outline-variant/30 mb-8 block group-hover:text-on-primary-container/20" style="">01</span>
+<h3 class="text-xl font-bold mb-4 group-hover:text-on-primary-container" style="">Aplicación</h3>
+<p class="text-on-surface-variant group-hover:text-on-primary-container/80" style="">Cuéntanos sobre tu estilo de vida y qué buscas en un compañero. Revisamos cada solicitud personalmente.</p>
+</div>
+<!-- Step 2 -->
+<div class="bg-surface-container p-12 group hover:bg-primary-container transition-colors duration-500">
+<span class="text-5xl font-black text-outline-variant/30 mb-8 block group-hover:text-on-primary-container/20" style="">02</span>
+<h3 class="text-xl font-bold mb-4 group-hover:text-on-primary-container" style="">Selección</h3>
+<p class="text-on-surface-variant group-hover:text-on-primary-container/80" style="">Basándonos en el temperamento, te ayudamos a elegir el cachorro que mejor se adapte a tu dinámica familiar.</p>
+</div>
+<!-- Step 3 -->
+<div class="bg-surface-container-high p-12 group hover:bg-primary-container transition-colors duration-500">
+<span class="text-5xl font-black text-outline-variant/30 mb-8 block group-hover:text-on-primary-container/20" style="">03</span>
+<h3 class="text-xl font-bold mb-4 group-hover:text-on-primary-container" style="">Entrega</h3>
+<p class="text-on-surface-variant group-hover:text-on-primary-container/80" style="">A las 8-10 semanas, tu cachorro está listo. Incluimos kit de bienvenida, vacunas y guía de cuidados.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="py-24 px-8 max-w-7xl mx-auto" id="contact">
+<div class="bg-white rounded-[3rem] overflow-hidden sunlight-shadow grid grid-cols-1 md:grid-cols-2">
+<div class="p-12 md:p-16">
+<h2 class="text-4xl font-bold mb-8" style="color: rgb(105, 105, 105);">Hablemos de tu futuro mejor amigo</h2>
+<form class="space-y-6">
+<div>
+<label class="block text-[10px] font-bold uppercase tracking-widest mb-2 text-on-surface-variant" style="">Nombre Completo</label>
+<input class="w-full bg-surface-container-high border-none rounded-xl p-4 focus:ring-2 focus:ring-primary-container transition-all" placeholder="Tu nombre" type="text">
+</div>
+<div>
+<label class="block text-[10px] font-bold uppercase tracking-widest mb-2 text-on-surface-variant" style="">Correo Electrónico</label>
+<input class="w-full bg-surface-container-high border-none rounded-xl p-4 focus:ring-2 focus:ring-primary-container transition-all" placeholder="hola@ejemplo.com" type="email">
+</div>
+<div>
+<label class="block text-[10px] font-bold uppercase tracking-widest mb-2 text-on-surface-variant" style="">Mensaje</label>
+<textarea class="w-full bg-surface-container-high border-none rounded-xl p-4 focus:ring-2 focus:ring-primary-container transition-all" placeholder="¿Cómo podemos ayudarte?" rows="4"></textarea>
+</div>
+<button class="w-full bg-primary text-on-primary font-bold uppercase tracking-widest py-4 rounded-full hover:bg-opacity-90 active:scale-95 transition-all" style="">
+                            Enviar Solicitud
+                        </button>
+</form>
+</div>
+<div class="bg-primary-container p-12 md:p-16 flex flex-col justify-between text-on-primary-container">
+<div>
+<h3 class="text-2xl font-bold mb-6" style="color: rgb(105, 105, 105);">Ubicación y Redes</h3>
+<div class="space-y-4">
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined" style="">location_on</span>
+<p class="" style="">Pilar, Buenos Aires, Argentina</p>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined" style="">mail</span>
+<p class="" style="">bfflabradoodles@gmail.com</p>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined" style="">phone_iphone</span>
+<p class="" style="">+54 9 11 6361-4187</p>
+</div>
+</div>
+</div>
+<div class="mt-12">
+<p class="text-[10px] font-bold uppercase tracking-widest mb-4" style="">Síguenos en Instagram</p>
+<div class="flex gap-4">
+<a class="w-12 h-12 rounded-full border border-on-primary-container/20 flex items-center justify-center hover:bg-on-primary-container hover:text-primary-container transition-colors" href="#" style="">
+<span class="material-symbols-outlined" style="">photo_camera</span>
+</a>
+<a class="w-12 h-12 rounded-full border border-on-primary-container/20 flex items-center justify-center hover:bg-on-primary-container hover:text-primary-container transition-colors" href="#" style="">
+<span class="material-symbols-outlined" style="">chat</span>
+</a>
+</div>
+</div>
+<!-- Small Map/Branding Element -->
+<div class="mt-8 rounded-2xl overflow-hidden aspect-video bg-white/20">
+<div class="w-full h-full flex items-center justify-center" data-location="Pilar, Buenos Aires, Argentina" style="">
+<span class="text-sm font-bold uppercase tracking-widest" style="">Ver Mapa de Ubicación</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-stone-100 py-12 px-8">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="flex flex-col items-center md:items-start gap-2"><img alt="Footer Logo Icon" class="h-6 w-6 mb-1 opacity-40" src="https://lh3.googleusercontent.com/aida/ADBb0ujysfJfY1rxKjuh9e7FJU70BEgkEwx0jrcj8w0OnttC1CmhT_2B2ir8TXLtehhjeyki5f5Qxq6NkvtqAzE0OHXCWhSJR2aMDZ4ydUVMJk1DW9uXAlzbnj7y0B2ITb7IxuZ7PCzc0fLoBE7RkYfuDI0QwY5VnEKr66SLNk-XYlRDdDdRJCJN-v7Txdx4lSabsQxYwduujd1daQO_ZnKl9p-JYEDfK6l54jtY2KM-31a8V1AZemQ6TTObE3FUZn2r_SOFC-UB7yLTiA" style="">
+<span class="text-lg font-bold text-stone-800 tracking-tighter" style="">Doodles de Familia</span>
+<p class="text-stone-500 text-sm font-['Inter']" style="">© 2024 Doodles de Familia. Criando con amor en Argentina.</p>
+</div>
+<div class="flex gap-8">
+<a class="text-stone-500 hover:text-yellow-600 underline decoration-2 underline-offset-4 text-[10px] uppercase tracking-widest transition-opacity duration-200" href="#" style="">Privacidad</a>
+<a class="text-stone-500 hover:text-yellow-600 underline decoration-2 underline-offset-4 text-[10px] uppercase tracking-widest transition-opacity duration-200" href="#" style="">Términos</a>
+<a class="text-stone-500 hover:text-yellow-600 underline decoration-2 underline-offset-4 text-[10px] uppercase tracking-widest transition-opacity duration-200" href="#" style="">Preguntas Frecuentes</a>
+</div>
+<div class="flex gap-4">
+<img alt="Logo Full" class="h-10 opacity-50 grayscale hover:grayscale-0 transition-all cursor-pointer" data-alt="Elegant full brand logo for Doodles de Familia featuring refined serif typography and a subtle paw print mark" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB85EKJHxjvFdPudnU40D2Qytkdgt2m9CviyUvdRTfvYN832SMjm_Ru_pZEB5-kY8icaRPelMAQXsQc30hDW05beGqswY-7ZnZSSJkgW3MY2YsLrx4hK6tJhZ63sKlEE6e45O_sUt31MjYJ1EJKKqCKGk7BP08XKU2V4BTbgv-_R3nhqAb9gKi2DQwyIfeLgoi30u7-dkddAtx5MlUnYCDwvc1v33u_xmviwWZocpKFv7jet4K8rIbbs7SQ5bGXmVFd9ZsT0SO_bYQ" style="">
+</div>
+</div>
+</footer>
+<!-- FAB for direct contact (Mobile only) -->
+<div class="fixed bottom-8 right-8 md:hidden">
+<button class="bg-primary text-on-primary w-14 h-14 rounded-full sunlight-shadow flex items-center justify-center active:scale-90 transition-transform" style="">
+<span class="material-symbols-outlined" style="font-variation-settings: &quot;FILL&quot; 1;">chat</span>
+</button>
+</div>
+</body></html>
