@@ -1,2 +1,1 @@
-# bfflabradoodles
-web de bff
+images/placeholder.txt
